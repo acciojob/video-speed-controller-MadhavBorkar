@@ -1,2 +1,42 @@
 
 /* Your CSS Code here. */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex {
+  width: 765px;
+  height: 430px;
+}
+
+.speed {
+  position: relative;
+  width: 100px;
+  height: 300px;
+  background: rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  cursor: ns-resize;
+}
+
+.speed-bar {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #ffc600;
+  color: black;
+  text-align: center;
+  font-size: 18px;
+  height: 10%;
+}
